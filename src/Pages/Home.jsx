@@ -1,6 +1,6 @@
 import React from "react";
 import pic from "../Parts/pic.jpeg"
-import Sidebar from "../Components/Sidebar"
+import Navbar from "../Components/Navbar"
 import Homebody from "../Components/Homebody"
 import axios from "axios"
 
@@ -10,7 +10,7 @@ import axios from "axios"
 function Home() {
     return (
       <div className="body">
-       <Sidebar/>
+       <Navbar/>
       <Homebody/>
          
       </div>

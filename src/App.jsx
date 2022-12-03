@@ -28,7 +28,7 @@ function App() {
     getData();
   }, []);
 
-  console.log(data);
+  console.log(data);ç
   console.log(postdata)
 
   return <Home />;

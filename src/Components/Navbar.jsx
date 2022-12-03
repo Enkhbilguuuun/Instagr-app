@@ -3,56 +3,52 @@ import {BsSearch} from "react-icons/bs";
 import {AiOutlineCompass} from "react-icons/ai";
 import {RiMessengerLine} from "react-icons/ri";
 import {AiOutlineHeart} from "react-icons/ai"
+import {BiAddToQueue} from "react-icons/bi"
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="buttonLogo">
-        <img
-          src=""
-          style={{
-            width: "103px",
-            height: "39px",
-            marginLeft: "20px",
-            marginTop: "15px",
-          }}
-          alt=""
-        />
+        <span style={{
+          fontFamily:"cursive",
+          fontWeight:"bold",
+          fontSize:"20px"
+        }}>Instagram</span>
       </div>
       <div className="navbarButtonContainer">
         <div className="navbarButton">
           <div className="navbarImg">
-            <AiFillHome style={{ width: "32px", height: "32px" }} />
+            <AiFillHome style={{ width: "50px", height: "35px" }} />
           </div>
           <span className="buttonName">Home</span>
         </div>
         <div className="navbarButton">
           <div className="navbarImg">
-          <BsSearch style={{ width: "32px", height: "32px" }} />
+          <BsSearch style={{ width: "50px", height: "50px" }} />
           </div>
           <span className="buttonName">Search</span>
         </div>
         <div className="navbarButton">
           <div className="navbarImg">
-          <AiOutlineCompass style={{ width: "32px", height: "32px" }} />
+          <AiOutlineCompass style={{ width: "50px", height: "50px" }} />
           </div>{" "}
           <span className="buttonName">Explore</span>
         </div>
         <div className="navbarButton">
           <div className="navbarImg">
-          <AiOutlineHeart style={{ width: "32px", height: "32px" }} />
+          <RiMessengerLine style={{ width: "50px", height: "50px" }} />
           </div>{" "}
           <span className="buttonName">Messages</span>
         </div>
         <div className="navbarButton">
           <div className="navbarImg">
-            <img src="" style={{ width: "22px", height: "22px" }} alt="" />
+          <AiOutlineHeart style={{ width: "50px", height: "50px" }} />
           </div>
           <span className="buttonName">Notifications</span>
         </div>
         <div className="navbarButton">
           <div className="navbarImg">
-            <img src="" style={{ width: "22px", height: "22px" }} alt="" />
+          <BiAddToQueue style={{ width: "50px", height: "50px" }} />
           </div>
           <span className="buttonName">Create</span>
         </div>
