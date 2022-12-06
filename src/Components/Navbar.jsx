@@ -13,7 +13,7 @@ const Navbar = () => {
           fontFamily:"cursive",
           fontWeight:"bold",
           fontSize:"20px"
-        }}>Instagram</span>
+        }}>Uvstagram</span>
       </div>
       <div className="navbarButtonContainer">
         <div className="navbarButton">

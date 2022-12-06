@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home"
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Profile from "./Components/Profile"
 
 function App() {
   const [data, setData] = useState([]);
@@ -28,10 +29,10 @@ function App() {
     getData();
   }, []);
 
-  console.log(data);ç
+  console.log(data);
   console.log(postdata)
 
-  return <Home />;
+  return <Profile/>;
 }
 
 export default App;

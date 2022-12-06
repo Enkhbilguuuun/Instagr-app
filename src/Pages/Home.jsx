@@ -1,22 +1,20 @@
-import React from "react";
-import pic from "../Parts/pic.jpeg"
-import Navbar from "../Components/Navbar"
-import Homebody from "../Components/Homebody"
-import axios from "axios"
-
-
+import "../App.css"
+import Navbar from "../Components/Navbar";
+import { createContext } from "react";
+import { useState } from "react";
+//  
+import HomeMiddle from "../Components/Homemiddle"
 
 
 function Home() {
-    return (
-      <div className="body">
-       <Navbar/>
-      <Homebody/>
-         
-      </div>
-    );
-  }
 
+  return (
+    <div className="body">
+      <Navbar/>
+      <HomeMiddle/>
+    </div>
 
-  export default Home
-  
+  );
+}
+
+export default Home;
