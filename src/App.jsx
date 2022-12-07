@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./Pages/Home"
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Profile from "./Components/Profile"
+import Profile from "./Pages/Profile"
 
 function App() {
   const [data, setData] = useState([]);
